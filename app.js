@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 const app = express();
 
-// Parse incoming request bodies in a middleware before your handlers
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
